@@ -1,0 +1,47 @@
+body {
+
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+img{border-radius: 25px;}
+
+a:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration: underline;
+	color:#000;
+	background:#ff0;
+	}
+
+.dark-mode {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(119,85,85,0.9948354341736695) 100%);
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: justify
+}
+
+img{
+  display: block;
+
+  margin:auto;
+}
+iframe{
+  display: block;
+
+  margin:auto;
+}
+.right-aligned {
+  float: right;
+  color: darkgray;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
